@@ -13,6 +13,8 @@ sudo apt install -y pkg-config libglib2.0-dev libgtk-3-dev
 make
 sudo make install
 
+rm -r gpredict*
+
 mkdir -p ~/.config/autostart
 cd ~/.config/autostart
 cat <<EOF > gpredict.desktop
